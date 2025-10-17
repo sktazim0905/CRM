@@ -9,7 +9,7 @@ const PORT = process.env.PORT
 const app = express()
 
 app.use(cors({
-    origin: "https://crm-raqy-oza67i3gn-sk-tazim-munafs-projects.vercel.app"
+    origin: "https://crm-raqy.vercel.app"
 }))
 app.use(express.json())
 app.use('/',AppRoutes)
